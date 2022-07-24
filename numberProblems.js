@@ -1,4 +1,4 @@
-// *** Number Problems ***
+// *** JavaScript Number Problems ***
 // https://www.w3resource.com/javascript-exercises/javascript-math-exercises.php#EDITOR
 
 
