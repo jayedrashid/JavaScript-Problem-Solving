@@ -3,6 +3,8 @@
 
 
 
+
+
 // Problem 1:
 // we can round numbers with the toFixed method as follows:
 
@@ -11,6 +13,10 @@
 
 // console.log(n1);    // 21
 // console.log(n2);    // 22
+
+
+
+
 
 // Problem 2:
 // To round a number to a specified number of decimal places, we can pass in an argument into the toFixed method as follows:
@@ -21,12 +27,20 @@
 // console.log(n1);    // 21
 // console.log(n2);    // 22
 
+
+
+
+
 // Problem 3:
 // There’s also the Math.round method which always round a number to the nearest integer.
 
 // const n = Math.round(0.8);
 
 // console.log(n);    // 1
+
+
+
+
 
 // Problem 4:
 //  if we pass in a locale string like 'fr' into the method:
@@ -35,17 +49,28 @@
 
 // console.log(str);    // 21,1
 
+
+
+
+
 // Problem 5:
 // We can call the number’s toExponential instance method to return a string that formats the number in exponential notation.
 
 // const str = (21.1).toExponential();
 // console.log(str);    // 2.11e+1
 
+
+
+
+
 // Problem 6:
 // We can pass in the number of digits to include after the decimal point as follows:
 
 // const str = (21.1).toExponential(4);
 // console.log(str);    // 2.1100e+1
+
+
+
 
 // Problem 6:
 // We can call the number instance’s toPrecision method to return a string representation of the original number with the given number of decimal places specified in the argument.
@@ -58,6 +83,9 @@
 // console.log(num.toPrecision(2));     // 5.4
 // console.log(num.toPrecision(1));     // 5
 
+
+
+
 // Problem 7:
 // Write a JavaScript function to convert a binary number to a decimal number.
 
@@ -67,6 +95,10 @@
 // }
 // console.log(bin_to_dec('110011'));      // 51
 // console.log(bin_to_dec('100'));      // 4
+
+
+
+
 
 // Problem 8:
 // Write a JavaScript function to convert a decimal number to binary, hexadecimal or octal number.
@@ -94,6 +126,10 @@
 // console.log(dec_to_bho(120, 'H'));      // 78
 // console.log(dec_to_bho(120, 'O'));      // 170
 
+
+
+
+
 // Problem 9:
 // Write a JavaScript function to generate a random integer.
 
@@ -113,6 +149,10 @@
 // console.log(rand(6));       // 5
 // console.log(rand());       // 0
 
+
+
+
+
 // Problem 10:
 // Write a JavaScript function to format a number up to specified decimal places.
 
@@ -127,6 +167,9 @@
 // console.log(decimals(2.100212, 3));     // 2.100
 // console.log(decimals(2100, 2));         // 2100.00
 
+
+
+
 // Problem 11:
 // Write a JavaScript function to find the highest value in an array.
 
@@ -139,6 +182,9 @@
 // console.log(max([12, 34, 56, 1]));          // 56
 // console.log(max([-12, -34, 0, -56, -1]));       // 0
 
+
+
+
 // Problem 12:
 // Write a JavaScript function to find the lowest value in an array.
 
@@ -150,6 +196,9 @@
 
 // console.log(min([12, 34, 56, 1]));             // 1
 // console.log(min([-12, -34, 0, -56, -1]));       // -56
+
+
+
 
 // Problem 13:
 // Write a JavaScript function to get the greatest common divisor (gcd) of two integers.
@@ -169,6 +218,9 @@
 
 // console.log(gcd_two_numbers(12, 13));   // 1
 // console.log(gcd_two_numbers(9, 3));     // 3
+
+
+
 
 // Problem 14:
 // Write a JavaScript function to find the GCD (greatest common divisor) of more than 2 integers.
@@ -205,6 +257,9 @@
 // console.log(gcd_more_than_two_numbers([3, 15, 27]));        // 3
 // console.log(gcd_more_than_two_numbers([5, 10, 15, 25]));       // 5
 
+
+
+
 // Problem 15:
 // Write a JavaScript function to get the least common multiple (LCM) of two numbers.
 
@@ -227,6 +282,9 @@
 
 // console.log(lcm_two_numbers(3, 15));    // 15
 // console.log(lcm_two_numbers(10, 15));   // 30
+
+
+
 
 // Problem 16:
 // Write a JavaScript function to get the least common multiple (LCM) of more than 2 integers.
@@ -257,6 +315,9 @@
 // console.log(lcm_more_than_two_numbers([100, 90, 80, 7]));      // 25200
 // console.log(lcm_more_than_two_numbers([5, 10, 15, 25]));        // 150
 
+
+
+
 // Problem 17:
 // Write a JavaScript function to find out if a number is a natural number or not.
 
@@ -272,6 +333,10 @@
 // console.log(is_Natural(10.22));     // false
 // console.log(is_Natural(10 / 0));     // false
 
+
+
+
+
 // Problem 18:
 // Write a JavaScript function to test if a number is a power of 2.
 
@@ -285,6 +350,9 @@
 // console.log(power_of_2(16));        // true
 // console.log(power_of_2(18));        // false
 // console.log(power_of_2(256));        // true
+
+
+
 
 // Problem 19:
 // Write a JavaScript function to round a number to a given decimal places.
@@ -300,6 +368,9 @@
 // console.log(precise_round(-10.3079499, 3));     // -10.308
 // console.log(precise_round(10.49999, 0));        // 10
 // console.log(precise_round(10.49999, 2));        // 10.50
+
+
+
 
 // Problem 20:
 // Write a JavaScript function to check whether a value is an integer or not.
@@ -320,6 +391,9 @@
 // console.log(is_Int(23.75));     // false
 // console.log(is_Int(-23));     // true
 
+
+
+
 // Problem 21:
 // Write a JavaScript function to check to check whether a variable is numeric or not.
 
@@ -333,6 +407,10 @@
 // console.log(is_Numeric(' '));        // false
 // console.log(is_Numeric(1.20));        // true
 // console.log(is_Numeric(-200));        // true
+
+
+
+
 
 // Problem 22:
 // Write a JavaScript function to calculate the sum of values in an array.
@@ -356,6 +434,10 @@
 // console.log(sum([100, -200, 3]));       // -97
 // console.log(sum([1, 2, 'a', 3]));       // 6
 
+
+
+
+
 // Problem 23:
 // Write a JavaScript function to calculate the product of values in an array.
 
@@ -377,6 +459,10 @@
 // console.log(product([100, -200, 3]));       // -60000
 // console.log(product([1, 2, 'a', 3]));       // 6
 
+
+
+
+
 // Problem 24:
 // Create a Pythagorean function in JavaScript.
 
@@ -388,6 +474,9 @@
 
 // console.log(pythagorean_theorem(2, 4));     // 4.47213595499958
 // console.log(pythagorean_theorem(3, 4));     // 5
+
+
+
 
 // Problem 25:
 // Write a JavaScript program to evaluate binomial coefficients.
@@ -403,6 +492,10 @@
 
 // console.log(binomial(8, 3));        // 56
 // console.log(binomial(10, 2));       // 45
+
+
+
+
 
 // Problem 26:
 // Write a JavaScript function that Convert an integer into a Roman Numeral in javaScript.
@@ -423,6 +516,10 @@
 // }
 
 // console.log(integer_to_roman(27));      // XXVII
+
+
+
+
 
 // Problem 27:
 // Write a JavaScript function that Convert Roman Numeral to Integer.
@@ -461,6 +558,9 @@
 // console.log(roman_to_Int('XXVI'));      // 26
 // console.log(roman_to_Int('CI'));        // 101
 
+
+
+
 // Problem 28:
 // Write a JavaScript function to create a UUID identifier.
 
@@ -476,6 +576,9 @@
 
 // console.log(create_UUID());     // 80055b36-ddf9-417a-ae2e-4a0eb4f7c5fa
 
+
+
+
 // Problem 29:
 // Write a JavaScript function to round a number to a specified number of digits and strip extra zeros (if any).
 
@@ -490,6 +593,9 @@
 
 // console.log(result);        // 1.1234
 
+
+
+
 // Problem 30:
 // Write a JavaScript function to make currency math (add, subtract, multiply, division etc.).
 
@@ -501,6 +607,9 @@
 // console.log(parseFloat(n1.replace(regp, '')) - parseFloat(n2.replace(regp, '')));      // 18.67
 // console.log(parseFloat(n1.replace(regp, '')) * parseFloat(n2.replace(regp, '')));      // 867.9768
 // console.log(parseFloat(n1.replace(regp, '')) / parseFloat(n2.replace(regp, '')));      // 1.865554010199351
+
+
+
 
 // Problem 31:
 // Write a JavaScript function to calculate the nth root of a number.
@@ -519,6 +628,9 @@
 // console.log(nthroot(64, 2));    // 8
 // console.log(nthroot(64, -2));   // 0.125
 
+
+
+
 // Problem 32:
 // Write a JavaScript function to calculate degrees between 2 points with inverse Y axis.
 
@@ -528,6 +640,9 @@
 
 // console.log(pointDirection(1, 0, 12, 0));   // 0
 // console.log(pointDirection(1, 0, 1, 10));   // 90
+
+
+
 
 // Problem 33:
 // Write a JavaScript function to round up an integer value to the next multiple of 5.
@@ -540,6 +655,9 @@
 // console.log(int_round5(137));        // 140
 // console.log(int_round5(142));        // 145
 
+
+
+
 // Problem 34:
 // Write a JavaScript function to convert a positive number to negative number.
 
@@ -548,6 +666,9 @@
 // }
 
 // console.log(pos_to_neg(15));        // -15
+
+
+
 
 // Problem 35:
 // Write a JavaScript function to cast a square root of a number to an integer.
@@ -558,6 +679,9 @@
 
 // console.log(sqrt_to_int(17));       // 4
 
+
+
+
 // Problem 36:
 // Write a JavaScript function to get the highest number from three different numbers.
 
@@ -566,6 +690,7 @@
 // }
 
 // console.log(highest_of_three(-5, 4, 2));        // 4
+
 
 
 
@@ -1119,8 +1244,3 @@
 
 
 
-
-
-
-
-// Problem 59:
