@@ -9,5 +9,6 @@ JavaScript Problems and Solutions
 
 - JavaScript Number Problems
 - JavaScript String Problems
+- JavaScript RegEx Problems
 - JavaScript Array Problems
 - JavaScript Object Problems
