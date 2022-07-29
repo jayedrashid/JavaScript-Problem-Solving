@@ -12,3 +12,5 @@ JavaScript Problems and Solutions
 - JavaScript RegEx Problems
 - JavaScript Array Problems
 - JavaScript Object Problems
+
+- JavaScript Math Problems
