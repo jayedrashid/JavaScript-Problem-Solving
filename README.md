@@ -5,12 +5,15 @@ JavaScript Problems and Solutions
 
 <img src="https://raw.githubusercontent.com/jayedrashid/necessary_cloud_files/main/pexels-mikhail-fesenko-coding-problem-solve.jpg">
   
-### Primitive Problems
+### Basic JavaScript Problems
 - JavaScript Number Problems
 - JavaScript String Problems
 - JavaScript RegEx Problems
 - JavaScript Array Problems
 - JavaScript Object Problems
+- JavaScript Math Problems
 
 ### Method Problems
-- JavaScript Math Problems
+- JavaScript String Method Problems
+- JavaScript Array Method Problems
+- JavaScript Object Method Problems
