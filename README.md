@@ -13,7 +13,4 @@ JavaScript Problems and Solutions
 - JavaScript Object Problems
 - JavaScript Math Problems
 
-### Method Problems
-- JavaScript String Method Problems
-- JavaScript Array Method Problems
-- JavaScript Object Method Problems
+
